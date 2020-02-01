@@ -53,7 +53,7 @@ The next solution satisfies most performance needs by far: having 1 cluster with
 connections to your mail server. If your server can handle it, you really scale up on performance. Try benchmarking your server with test emails with different pool sizes to see when performance 
 starts to degrade. 
 
-#### Take on the worls with a cluster of mail servers
+#### Take on the world with a cluster of mail servers
 
 Finally, the next solution satisfies if you really need to send *a lot* of emails in a reasonable time. Define a cluster of several mail servers to which you can have one or multiple concurrent 
 connections. You rarely need this kind of performance, but sending news letters or world wide updates become can benefit greatly from this.
